@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #ffe4ec, #e0f0ff);
+    color: #1e293b;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #7c3aed, #ec4899);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1e293b;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #7c3aed;
+}
+
+.cta {
+    background: linear-gradient(90deg, #7c3aed, #ec4899);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 999px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 60px 10%;
+    gap: 40px;
+}
+
+.hero-right img {
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #7c3aed, #ec4899, #06b6d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.btn {
+    background: linear-gradient(90deg, #7c3aed, #ec4899);
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.btn-outline {
+    border: 2px solid #7c3aed;
+    color: #7c3aed;
+    padding: 10px 18px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0 10%;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+}
+
+button {
+    background: linear-gradient(90deg, #7c3aed, #ec4899);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    margin-top: 40px;
+}
