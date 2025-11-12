@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dillon Majesson Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <div class="logo">DM</div>
+            <div>
+                <h1>Dillon Majesson</h1>
+                <p>Front-end Developer — colorful UIs</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a class="cta" href="#">Resume</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-left">
+                <h2>Crafting <span class="gradient-text">vibrant</span> experiences on the web</h2>
+                <p>I design and build fast, accessible front-end applications with joyful color and clean UI.</p>
+
+                <div class="buttons">
+                    <a class="btn" href="#projects">View projects</a>
+                    <a class="btn-outline" href="#contact">Contact me</a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800" alt="workspace" />
+            </div>
+        </section>
+
+        <section id="projects">
+            <h3>Featured Projects</h3>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800" />
+                    <h4>Project Aurora</h4>
+                    <p>Responsive web app with vibrant UI.</p>
+                </div>
+
+                <div class="project">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800" />
+                    <h4>Warteg88 Menu App</h4>
+                    <p>Ordering UI for small restaurants — fast & simple.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h3>About Me</h3>
+            <p>I create colorful, modern, and accessible web interfaces. I love crafting designs that feel alive and
+                enjoyable to use.</p>
+        </section>
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <form onsubmit="return submitForm(event)">
+                <input type="text" id="name" placeholder="Your Name" required />
+                <input type="email" id="email" placeholder="Your Email" required />
+                <textarea id="message" placeholder="Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>© 2025 Dillon Majesson — Designed with color & care.</footer>
+</body>
+</html>
